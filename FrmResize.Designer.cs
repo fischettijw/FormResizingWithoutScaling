@@ -132,8 +132,7 @@
             // 
             // BtnDelete
             // 
-            this.BtnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnDelete.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.BtnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnDelete.Location = new System.Drawing.Point(317, 501);
             this.BtnDelete.Name = "BtnDelete";
@@ -141,6 +140,7 @@
             this.BtnDelete.TabIndex = 9;
             this.BtnDelete.Text = "Delete";
             this.BtnDelete.UseVisualStyleBackColor = true;
+            this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
             // 
             // BtnUpdate
             // 
@@ -218,6 +218,8 @@
             this.MinimumSize = new System.Drawing.Size(800, 600);
             this.Name = "FrmResize";
             this.Text = "Form Resizing Without Scaling by Joseph Fischetti";
+            this.Load += new System.EventHandler(this.FrmResize_Load);
+            this.Resize += new System.EventHandler(this.FrmResize_Resize);
             this.ResumeLayout(false);
             this.PerformLayout();
 
