@@ -42,6 +42,11 @@
             this.TxtUserName = new System.Windows.Forms.TextBox();
             this.LblUser = new System.Windows.Forms.Label();
             this.TxtDate = new System.Windows.Forms.MaskedTextBox();
+            this.Btn01 = new System.Windows.Forms.Button();
+            this.Btn02 = new System.Windows.Forms.Button();
+            this.Btn03 = new System.Windows.Forms.Button();
+            this.Btn04 = new System.Windows.Forms.Button();
+            this.Btn05 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LblTop
@@ -51,7 +56,7 @@
             this.LblTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.LblTop.Location = new System.Drawing.Point(0, 0);
             this.LblTop.Name = "LblTop";
-            this.LblTop.Size = new System.Drawing.Size(784, 20);
+            this.LblTop.Size = new System.Drawing.Size(811, 20);
             this.LblTop.TabIndex = 0;
             // 
             // LblLeft
@@ -75,7 +80,7 @@
             this.LbxStudent.Location = new System.Drawing.Point(36, 95);
             this.LbxStudent.MultiColumn = true;
             this.LbxStudent.Name = "LbxStudent";
-            this.LbxStudent.Size = new System.Drawing.Size(736, 384);
+            this.LbxStudent.Size = new System.Drawing.Size(646, 384);
             this.LbxStudent.TabIndex = 3;
             // 
             // LblStudent
@@ -113,7 +118,7 @@
             this.LblComment.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.LblComment.AutoSize = true;
             this.LblComment.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblComment.Location = new System.Drawing.Point(493, 71);
+            this.LblComment.Location = new System.Drawing.Point(486, 71);
             this.LblComment.Name = "LblComment";
             this.LblComment.Size = new System.Drawing.Size(78, 20);
             this.LblComment.TabIndex = 7;
@@ -134,7 +139,7 @@
             // 
             this.BtnDelete.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.BtnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDelete.Location = new System.Drawing.Point(317, 501);
+            this.BtnDelete.Location = new System.Drawing.Point(330, 501);
             this.BtnDelete.Name = "BtnDelete";
             this.BtnDelete.Size = new System.Drawing.Size(174, 40);
             this.BtnDelete.TabIndex = 9;
@@ -146,7 +151,7 @@
             // 
             this.BtnUpdate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnUpdate.Location = new System.Drawing.Point(632, 501);
+            this.BtnUpdate.Location = new System.Drawing.Point(659, 501);
             this.BtnUpdate.Name = "BtnUpdate";
             this.BtnUpdate.Size = new System.Drawing.Size(140, 40);
             this.BtnUpdate.TabIndex = 10;
@@ -170,7 +175,7 @@
             this.TxtUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtUserName.Location = new System.Drawing.Point(521, 32);
             this.TxtUserName.Name = "TxtUserName";
-            this.TxtUserName.Size = new System.Drawing.Size(214, 26);
+            this.TxtUserName.Size = new System.Drawing.Size(241, 26);
             this.TxtUserName.TabIndex = 14;
             // 
             // LblUser
@@ -194,12 +199,72 @@
             this.TxtDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.TxtDate.ValidatingType = typeof(System.DateTime);
             // 
+            // Btn01
+            // 
+            this.Btn01.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.Btn01.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn01.Location = new System.Drawing.Point(703, 95);
+            this.Btn01.Name = "Btn01";
+            this.Btn01.Size = new System.Drawing.Size(96, 40);
+            this.Btn01.TabIndex = 16;
+            this.Btn01.Text = "Button 01";
+            this.Btn01.UseVisualStyleBackColor = true;
+            // 
+            // Btn02
+            // 
+            this.Btn02.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.Btn02.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn02.Location = new System.Drawing.Point(703, 181);
+            this.Btn02.Name = "Btn02";
+            this.Btn02.Size = new System.Drawing.Size(96, 40);
+            this.Btn02.TabIndex = 17;
+            this.Btn02.Text = "Button 02";
+            this.Btn02.UseVisualStyleBackColor = true;
+            // 
+            // Btn03
+            // 
+            this.Btn03.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.Btn03.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn03.Location = new System.Drawing.Point(703, 267);
+            this.Btn03.Name = "Btn03";
+            this.Btn03.Size = new System.Drawing.Size(96, 40);
+            this.Btn03.TabIndex = 18;
+            this.Btn03.Text = "Button 03";
+            this.Btn03.UseVisualStyleBackColor = true;
+            // 
+            // Btn04
+            // 
+            this.Btn04.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.Btn04.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn04.Location = new System.Drawing.Point(703, 353);
+            this.Btn04.Name = "Btn04";
+            this.Btn04.Size = new System.Drawing.Size(96, 40);
+            this.Btn04.TabIndex = 19;
+            this.Btn04.Text = "Button 04";
+            this.Btn04.UseVisualStyleBackColor = true;
+            // 
+            // Btn05
+            // 
+            this.Btn05.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.Btn05.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn05.Location = new System.Drawing.Point(703, 439);
+            this.Btn05.Name = "Btn05";
+            this.Btn05.Size = new System.Drawing.Size(96, 40);
+            this.Btn05.TabIndex = 20;
+            this.Btn05.Text = "Button 05";
+            this.Btn05.UseVisualStyleBackColor = true;
+            // 
             // FrmResize
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(784, 561);
+            this.ClientSize = new System.Drawing.Size(811, 561);
+            this.Controls.Add(this.Btn05);
+            this.Controls.Add(this.Btn04);
+            this.Controls.Add(this.Btn03);
+            this.Controls.Add(this.Btn02);
+            this.Controls.Add(this.Btn01);
             this.Controls.Add(this.TxtDate);
             this.Controls.Add(this.TxtUserName);
             this.Controls.Add(this.LblUser);
@@ -241,6 +306,11 @@
         private System.Windows.Forms.TextBox TxtUserName;
         private System.Windows.Forms.Label LblUser;
         private System.Windows.Forms.MaskedTextBox TxtDate;
+        private System.Windows.Forms.Button Btn01;
+        private System.Windows.Forms.Button Btn02;
+        private System.Windows.Forms.Button Btn03;
+        private System.Windows.Forms.Button Btn04;
+        private System.Windows.Forms.Button Btn05;
     }
 }
 
